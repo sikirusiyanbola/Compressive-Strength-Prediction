@@ -1,5 +1,5 @@
 Flask
-xgboost==1.6.0
+xgboost==2.1.1
 scipy==1.10.1
 scikit-learn
 numpy
