@@ -20,41 +20,29 @@
     
     <div class="container">
         <h2>Project Overview</h2>
-        <p>This project focuses on predicting the compressive strength of geopolymer concrete based on various parameters...</p>
+        <p>This research explores the application of the XGBoost machine learning model to predict the compressive strength of fly ash-based geopolymer concrete. The predictive model is trained on experimental data using key input parameters, including the quantities of fly ash, sodium silicate, sodium hydroxide, and extra water (all in kilograms), along with the molarity of the sodium hydroxide solution, the SS/SH ratio (sodium silicate to sodium hydroxide), and the weights of fine and coarse aggregates. Other critical parameters such as curing days and curing temperature (°C) are also considered. <br>
+
+        By accurately forecasting compressive strength based on these input variables, the model provides researchers and engineers with a tool to assess the strength of their mix designs before conducting physical experiments. This research contributes to optimizing geopolymer concrete production, reducing waste, and enhancing resource efficiency, making it a valuable asset for sustainable construction practices.</p>
+
+        <h2>How to Use the Application for Prediction</h2>
+
+        <p>To predict the compressive strength of fly-ash-based geopolymer concrete mix, navigate to the home page and enter your mix design parameters into the application per cubic metre. Input the quantities of fly ash, sodium silicate, sodium hydroxide, and extra water in kilograms, and specify the molarity of the sodium hydroxide solution. Additionally, provide the weights of coarse and fine aggregates, the ratio of sodium silicate to sodium hydroxide (SS/SH ratio), the number of curing days, and the curing temperature in degrees Celsius. 
+        <br>
+
+        Once all the input values are provided, click the "Predict Compressive Strength" button. The application will process the data using the trained XGBoost model and display the predicted compressive strength in megapascals (MPa). This output allows you to assess whether your mix design meets the desired strength requirements, thereby saving time and resources.
+        </p>
     </div>
 
     <div class="container">
-        <h2>My Biography</h2>
+        <h2>Project Student</h2>
         <img src="{{ url_for('static', filename='images/my_picture.jpg') }}" alt="My Picture">
-        <p>Here is a brief biography about me as the project student
-            <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student</p>
+        <p>Sikiru Abdulganiyu Siyanbola is a masters student and researcher in the Department of Civil Engineering at Bayero University Kano, Nigeria. His work focuses on the optimization and predictive modeling of geopolymer concrete, a sustainable alternative to conventional cement-based materials. Sikiru has interest in the application of machine learning algorithms to solve real-world engineering problems.</p>
     </div>
 
     <div class="container">
-        <h2>Supervisor's Biography</h2>
+        <h2>Project Supervisor</h2>
         <img src="{{ url_for('static', filename='images/supervisor_picture.jpg') }}" alt="Supervisor's Picture">
-        <p>Here is a brief biography of my supervisor
-        <br> 
-        Here is a brief biography about me as the project student 
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
-        <br> 
-        Here is a brief biography about me as the project student
+        <p>Professor O.A.U Uche is a renowned academic and researcher in the Department of Civil Engineering at Bayero University Kano, Nigeria. He has extensive experience in structural engineering and material science, and has guided numerous PhD and Masters research projects aimed at advancing material sustainability in civil engineering practice. Professor Uche's scholarly contributions span multiple publications in high-impact journals, and his mentorship has helped shape the careers of many engineers and researchers in Nigeria and beyond. His expertise and leadership continue to inspire innovation in the field of civil engineering.
         </p>
     </div>
 </body>
